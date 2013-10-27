@@ -1,0 +1,5 @@
+gnome-shell-pomodoro (0.6.20131027-1) unstable; urgency=low
+
+  * Initial release (Closes: #728031)
+
+ -- Joseph HERLANT <herlantj@gmail.com>  Sun, 27 Oct 2013 19:43:58 +0100
