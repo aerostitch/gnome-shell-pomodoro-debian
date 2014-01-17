@@ -11,8 +11,7 @@ Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
 
 Package: gnome-shell-pomodoro
 Architecture: any
-Depends: gnome-shell (>= 3.7 <= 3.8), intltool, libglib2.0-dev, ${shlibs:Depends}, ${misc:Depends}
-Recommends: gnome-shell (<= 3.8)
+Depends: gnome-shell (>= 3.7), gnome-shell (<< 3.9), intltool, libglib2.0-dev, ${shlibs:Depends}, ${misc:Depends}
 Description: This GNOME Shell extension helps managing time according to Pomodoro Technique.
  This GNOME Shell extension helps you to manage time according to Pomodoro 
  technique.
