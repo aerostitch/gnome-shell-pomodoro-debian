@@ -3,7 +3,7 @@ Maintainer: Joseph HERLANT <herlantj@gmail.com>
 Section: gnome
 Priority: extra
 Build-Depends: gnome-common, intltool, libglib2.0-dev, debhelper (>= 8.0.0)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: https://github.com/codito/gnome-shell-pomodoro/
 Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
 #Vcs-Git: git://git.debian.org/collab-maint/gnome-shell-pomodoro.git
@@ -12,7 +12,7 @@ Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
 Package: gnome-shell-pomodoro
 Architecture: any
 Depends: gnome-shell (>= 3.7), gnome-shell (<< 3.9), intltool, libglib2.0-dev, ${shlibs:Depends}, ${misc:Depends}
-Description: This GNOME Shell extension helps managing time according to Pomodoro Technique.
+Description: This GNOME Shell extension manages time using Pomodoro Technique.
  This GNOME Shell extension helps you to manage time according to Pomodoro 
  technique.
  .
