@@ -1,6 +1,12 @@
-gnome-shell-pomodoro (0.8.0-3) unstable; urgency=low
+gnome-shell-pomodoro (0.8.0-2) unstable; urgency=low
+
+  * Adding Vincent Cheng's remarks to have a cleaner package (still closes:
+    #728031)
+
+ -- Joseph HERLANT <herlantj@gmail.com>  Mon, 20 Jan 2014 18:27:23 +0100
+
+gnome-shell-pomodoro (0.8.0-1) unstable; urgency=low
 
   * Initial release (Closes: #728031)
-  * Adding Vincent Cheng's remarks to have a cleaner package
 
  -- Joseph HERLANT <herlantj@gmail.com>  Wed, 30 Oct 2013 21:40:30 +0100
