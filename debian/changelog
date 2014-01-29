@@ -1,5 +1,7 @@
 gnome-shell-pomodoro (0.8.0-1) unstable; urgency=low
 
-  * Initial release (Closes: #728031)
+  * Initial release based on commit 863e895b67a8e70809ebe3bb8aa5883e142aa00f
+    from banch gnome-shell-extension-3.8 that includes several fixes over the
+    0.8.0 tag (Closes: #728031)
 
  -- Joseph HERLANT <herlantj@gmail.com>  Mon, 20 Jan 2014 18:27:23 +0100

@@ -12,24 +12,20 @@ Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
 Package: gnome-shell-pomodoro
 Architecture: all
 Depends: gnome-shell (>= 3.7), gnome-shell (<< 3.9), ${shlibs:Depends}, ${misc:Depends}
-Description: GNOME Shell extension manages time using Pomodoro technique
- This GNOME Shell extension helps you to manage time according to Pomodoro 
- technique.
+Description: GNOME Shell time-management app
+ This GNOME Shell app helps you to manage time according to the 
+ pomodoro technique.
  .
  Features:
- Countdown timer in the GNOME Shell top panel
- Full screen notifications that can be easily dismissed
- Reminders to nag you about taking a break
- Sets your IM (Empathy) status to busy
- Hides any notifications until the start of break
+  * puts a countdown timer in the GNOME Shell top panel;
+  * nags you with reminders about taking a break;
+  * uses full screen notifications that can be easily dismissed;
+  * hides other notifications until the start of the break;
+  * sets your IM (Empathy) status to "busy".
  .
- What is the Pomodoro technique?
- The Pomodoro technique is a time and focus management method which improves
+ The pomodoro technique is a time and focus management method which improves
  productivity and quality of work. The name comes from a kitchen timer, which
  can be used to keep track of time. In short, you are supposed to focus on work
  for around 25 minutes and then have a well deserved break in which you should
- relax. This cycle repeats once it reaches 4th break – then you should take a
- longer break (have a walk or something). It's that simple. It improves your
- focus, physical health and mental agility depending on how you spend your
- breaks and how strictly you follow the routine.
-
+ relax. Then when this cycle repeats for the fourth time you should take a
+ longer break (have a walk or something).
