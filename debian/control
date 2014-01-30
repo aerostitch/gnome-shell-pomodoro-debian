@@ -2,7 +2,7 @@ Source: gnome-shell-pomodoro
 Maintainer: Joseph HERLANT <herlantj@gmail.com>
 Section: gnome
 Priority: extra
-Build-Depends: gnome-common, intltool, libglib2.0-dev, debhelper (>= 8.0.0)
+Build-Depends: gnome-common, intltool, libglib2.0-dev, quilt, debhelper (>= 8.0.0)
 Standards-Version: 3.9.5
 Homepage: https://github.com/codito/gnome-shell-pomodoro/
 Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
