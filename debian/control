@@ -1,19 +1,26 @@
 Source: gnome-shell-pomodoro
 Maintainer: Joseph HERLANT <herlantj@gmail.com>
 Section: gnome
-Priority: extra
-Build-Depends: gnome-common, intltool, libglib2.0-dev, quilt, debhelper (>= 8.0.0)
+Priority: optional
+Build-Depends:
+ debhelper (>= 8.0.0),
+ gnome-common,
+ intltool,
+ libglib2.0-dev,
+ quilt
 Standards-Version: 3.9.5
 Homepage: https://github.com/codito/gnome-shell-pomodoro/
 Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
-#Vcs-Git: git://git.debian.org/collab-maint/gnome-shell-pomodoro.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/gnome-shell-pomodoro.git;a=summary
 
 Package: gnome-shell-pomodoro
 Architecture: all
-Depends: gnome-shell (>= 3.7), gnome-shell (<< 3.9), ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ gnome-shell (<< 3.9),
+ gnome-shell (>= 3.7),
+ ${misc:Depends},
+ ${shlibs:Depends}
 Description: GNOME Shell time-management app
- This GNOME Shell app helps you to manage time according to the 
+ This GNOME Shell app helps you to manage time according to the
  pomodoro technique.
  .
  Features:
