@@ -7,7 +7,6 @@ Build-Depends:
  gnome-common,
  intltool,
  libglib2.0-dev,
- quilt
 Standards-Version: 3.9.5
 Homepage: https://github.com/codito/gnome-shell-pomodoro/
 Vcs-Browser: https://github.com/aerostitch/gnome-shell-pomodoro-debian.git
